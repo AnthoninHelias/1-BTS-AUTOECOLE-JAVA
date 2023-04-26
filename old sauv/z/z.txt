@@ -1,0 +1,35 @@
+CREATE VIEW totaledesCommandesToulouse as 
+SELECT COUNT(commandeparville.LOCALITE),commandeparville.LOCALITE
+FROM  commandeparville
+WHERE commandeparville.LOCALITE ="Toulouse"
+
+CREATE VIEW totaledesCommandesPoitiers as 
+SELECT COUNT(commandeparville.LOCALITE),commandeparville.LOCALITE
+FROM  commandeparville
+WHERE commandeparville.LOCALITE ="Poitiers"
+
+CREATE VIEW totaledesCommandesParis as 
+SELECT COUNT(commandeparville.LOCALITE),commandeparville.LOCALITE
+FROM  commandeparville
+WHERE commandeparville.LOCALITE ="Paris"
+
+CREATE VIEW totaledesCommandesNamur as 
+SELECT COUNT(commandeparville.LOCALITE),commandeparville.LOCALITE
+FROM  commandeparville
+WHERE commandeparville.LOCALITE ="Namur"
+
+CREATE VIEW totaledesCommandesLille as 
+SELECT COUNT(commandeparville.LOCALITE),commandeparville.LOCALITE
+FROM  commandeparville
+WHERE commandeparville.LOCALITE ="Lille"
+
+CREATE VIEW totaledesCommandesGeneve as 
+SELECT COUNT(commandeparville.LOCALITE),commandeparville.LOCALITE
+FROM  commandeparville
+WHERE commandeparville.LOCALITE ="Geneve"
+
+CREATE VIEW totaledesCommandesBruxelles as 
+SELECT COUNT(commandeparville.LOCALITE),commandeparville.LOCALITE
+FROM  commandeparville
+WHERE commandeparville.LOCALITE ="Bruxelles"
+

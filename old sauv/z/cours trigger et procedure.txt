@@ -1,0 +1,79 @@
+DELIMITER |
+CREATE PROCEDURE moyenneQuantiteCommande (IN p_ncom int,OUT p_moyenne float)
+BEGIN
+SELECT AVG(QCOM) INTO p_moyenne
+FROM detail
+WHERE NCOM = p_ncom;
+END |
+
+SET @p0=30180; SET @p1=0; CALL moyenneQuantiteCommande(@p0, @p1); SELECT @p1 AS p_moyenne;
+
+
+ALTER TABLE `client` ADD `Observation` TEXT NOT NULL AFTER `COMPTE`;
+
+
+
+DELIMITER |
+CREATE TRIGGER majClientOLD
+BEFORE INSERT ON client
+FOR EACH ROW
+BEGIN
+IF new.CAT = 'C1'
+THEN SET NEW.Observation = "Mauvais client";
+END IF;
+END |
+
+
+DELIMITER |
+CREATE TRIGGER majClientOLD
+BEFORE UPDATE ON client
+FOR EACH ROW
+BEGIN
+IF OLD.CAT = 'C1'
+THEN SET NEW.Observation = "Mauvais client";
+END IF;
+END |
+
+INSERT into client (CAT , NOM , NCLI)
+VALUES ("C1" , "test" , 116)
+
+
+
+DELIMITER |
+CREATE TRIGGER valeur_prod_update
+BEFORE INSERT ON produit
+FOR EACH ROW
+BEGIN
+SET new.valeur_prod = new.PRIX*new.QSTOCK;
+END |
+
+DELIMITER |
+CREATE TRIGGER valeur_prod_update_old_2
+BEFORE UPDATE ON produit
+FOR EACH ROW
+BEGIN
+IF OLD.valeur_prod = 0
+THEN SET new.valeur_prod = OLD.PRIX*OLD.QSTOCK;
+END IF;
+END |
+
+SELECT * FROM `produit`DELIMITER |
+CREATE TRIGGER maj_valeur_Produit 
+BEFORE UPDATE ON produit
+FOR EACH ROW
+BEGIN
+IF OLD.valeur_prod = 0
+THEN SET new.valeur_prod = OLD.PRIX*OLD.QSTOCK;
+END IF;
+END |
+
+
+DELIMITER |
+CREATE TRIGGER maj_valeur_Produit3 
+BEFORE UPDATE ON produit
+FOR EACH ROW
+BEGIN
+IF OLD.valeur_prod != NEW.valeur_prod
+THEN SET new.valeur_prod = OLD.PRIX*OLD.QSTOCK;
+END IF;
+END |
