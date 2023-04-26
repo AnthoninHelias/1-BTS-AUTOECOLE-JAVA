@@ -8,84 +8,9 @@
     </content>
     <orderEntry type="jdk" jdkName="18 (3)" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../JDK/jcalendar-1.4/lib/jcalendar-1.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../JDK/mysql-connector-java-8.0.30.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../JDK/jfreechart-1.5.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Librairies/Librairies/jcalendar-1.4/lib/jcalendar-1.4.jar!/" />
-          <root url="jar://$MODULE_DIR$/../Librairies/Librairies/jcommon-1.0.23.jar!/" />
-          <root url="jar://$MODULE_DIR$/../Librairies/Librairies/jfreechart-1.5.3.jar!/" />
-          <root url="jar://$MODULE_DIR$/../Librairies/Librairies/mysql-connector-java-8.0.30.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="file://$MODULE_DIR$/../Librairies/Librairies/jcalendar-1.4/doc/api" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../Librairies/Librairies/jcalendar-1.4/src" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Librairies/Librairies/jcommon-1.0.23.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Librairies/Librairies/jfreechart-1.5.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Librairies/Librairies/mysql-connector-java-8.0.30.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Librairies/Librairies/jcalendar-1.4/lib/jcalendar-1.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" exported="" name="mysql-connector-java-5.1.48" level="project" />
+    <orderEntry type="library" exported="" name="jfreechart-1.5.3" level="project" />
+    <orderEntry type="library" exported="" name="mysql-connector-java-8.0.30" level="project" />
+    <orderEntry type="library" exported="" name="jcalendar-1.4" level="project" />
   </component>
 </module>

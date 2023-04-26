@@ -1,0 +1,17 @@
+{
+    "name": "studoo/php-tp-oop-poubelle-correction",
+    "autoload": {
+        "psr-4": {
+            "Poubelle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benoit Foujols",
+            "email": "benoit.foujols@ac-creteil.fr"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}

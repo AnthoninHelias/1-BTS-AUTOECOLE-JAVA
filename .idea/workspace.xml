@@ -5,50 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a90827c8-ae16-4a11-b0bd-dda67182bc96" name="Changes" comment="Projet Complet 2.0">
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmAcceuil.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmAcceuil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmAjoutLicence.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmAjoutLicence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmAjoutMoniteur.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmAjoutMoniteur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmCatégorie.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmCatégorie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmConnexion.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmConnexion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmConsultationChiffre.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmConsultationChiffre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmEleve.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmEleve.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmEleveCours.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmEleveCours.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmEleveStats.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmEleveStats.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerant.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerantChiffreAffaire.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerantChiffreAffaire.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerantMoniteurLePlusSolicite.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerantMoniteurLePlusSolicite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerantNombreLecon.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerantNombreLecon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerantPlaning.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerantPlaning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerantStats.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerantStats.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerantVehiculeLePlusUtilise.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGerantVehiculeLePlusUtilise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGraphiqueMoniteur.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmGraphiqueMoniteur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmInscription.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmInscription.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmMoniteur.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmMoniteur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmPlanning.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmPlanning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmUsersUpdate.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmUsersUpdate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmVéhicules.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vues/FrmVéhicules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jcalendar_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jcalendar_1_41.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jcalendar_1_42.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfreechart_1_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jfreechart_1_5_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfreechart_1_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_48.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_301.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BST-SIO-G1-2023-AutoEcole-Software.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BST-SIO-G1-2023-AutoEcole-Software.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,19 +40,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Matiere Java/ProjetMagazinePigiste - Correction/ProjetMagazinePigiste&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/helia/Desktop/bts/JAVA/1-BTS-AUTOECOLE-JAVA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Matiere Java\Bts AutoEcole V1\BTS-Java-AutoEcole-V1\src\Vues\Gerant" />
@@ -175,6 +146,9 @@
       <workItem from="1680258346327" duration="1133000" />
       <workItem from="1680504169725" duration="71000" />
       <workItem from="1680869128536" duration="1256000" />
+      <workItem from="1681333172549" duration="1013000" />
+      <workItem from="1681858859808" duration="34000" />
+      <workItem from="1681879374396" duration="689000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout du FrmConnexion">
       <created>1668424280328</created>
